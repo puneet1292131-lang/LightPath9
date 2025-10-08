@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "donor": "Aarav",
+    "note": "Lighting a spark for the journey ahead.",
+    "date": "2025-10-09",
+    "tier": "Spark"
+  },
+  {
+    "id": 2,
+    "donor": "Meera",
+    "note": "May this ripple bring warmth to many hearts.",
+    "date": "2025-10-08",
+    "tier": "Ember"
+  },
+  {
+    "id": 3,
+    "donor": "Ravi",
+    "note": "Offering light during the full moon.",
+    "date": "2025-10-07",
+    "tier": "Flame"
+  },
+  {
+    "id": 4,
+    "donor": "Ananya",
+    "note": "For the festival of Navratri — honoring the divine feminine.",
+    "date": "2025-10-01",
+    "tier": "Torch"
+  },
+  {
+    "id": 5,
+    "donor": "Global Ripple Maker",
+    "note": "Together, we become the eternal flame.",
+    "date": "2025-09-27",
+    "tier": "Beacon"
+  }
+]
