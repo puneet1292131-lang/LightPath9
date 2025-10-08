@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Full Moon",
+    "date": "2025-10-17",
+    "type": "Lunar",
+    "description": "The full moon shines bright — ripples glow stronger during this phase."
+  },
+  {
+    "id": 2,
+    "name": "Diwali",
+    "date": "2025-10-20",
+    "type": "Festival",
+    "description": "Festival of Lights — a sacred time to ignite new ripples of generosity."
+  },
+  {
+    "id": 3,
+    "name": "Lunar Eclipse",
+    "date": "2025-11-07",
+    "type": "Celestial",
+    "description": "A cosmic alignment — ripples made today are marked as eclipse flames."
+  },
+  {
+    "id": 4,
+    "name": "Navratri",
+    "date": "2025-10-01",
+    "type": "Festival",
+    "description": "Nine nights of devotion — each ripple honors the divine feminine."
+  },
+  {
+    "id": 5,
+    "name": "Winter Solstice",
+    "date": "2025-12-21",
+    "type": "Celestial",
+    "description": "The longest night — a reminder that even in darkness, the flame endures."
+  }
+]
