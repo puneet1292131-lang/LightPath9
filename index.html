@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LightPath9</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- 🌟 Hero Section -->
+  <div class="card" style="text-align: center;">
+    <h1>LightPath9</h1>
+    <p>Every Ripple a Flame, Every Flame a Path</p>
+    <button class="btn">Become a Ripple-Maker</button>
+  </div>
+
+  <!-- ✨ Affirmation Section -->
+  <div class="affirmation">
+    <p id="affirmation-text">Your ripple carries light farther than you can see.</p>
+  </div>
+
+  <!-- 🔮 Footer -->
+  <div style="text-align: center; margin-top: 40px; font-size: 0.9em; color: #888;">
+    <p>© 2025 LightPath9 — A Cosmic Movement</p>
+  </div>
+
+  <!-- 🔁 Affirmation Script -->
+  <script>
+    const affirmations = [
+      "Your ripple carries light farther than you can see.",
+      "Every flame begins with a single spark of giving.",
+      "Be the first ripple today — the stream awaits you.",
+      "Generosity is not loss — it is expansion into the infinite.",
+      "The flame you kindle today may guide someone through their night."
+    ];
+    let index = 0;
+    setInterval(() => {
+      document.getElementById("affirmation-text").textContent = affirmations[index];
+      index = (index + 1) % affirmations.length;
+    }, 5000);
+  </script>
+
+</body>
+</html>
