@@ -22,3 +22,35 @@ To weave together **ritual, technology, and community** into a single path of de
 ## 🌍 Vision  
 LightPath9 is more than an app — it’s a **living ritual calendar**, a **global ripple wall**, and a **cosmic movement**. Every donation is not just support, but a **flame in the mandala of humanity**.  # LightPath9
 “A global spiritual donation and community platform where every ripple is a flame.
+# 🔱 LightPath9
+
+A cosmic platform where generosity becomes ritual.  
+Every ripple is sacred. Every flame joins the stream.
+
+---
+
+## 🕊️ Mission
+
+LightPath9 transforms everyday giving into a living rhythm of devotion.  
+It honors ripple-makers, aligns with lunar cycles, and invites the world into a shared stream of light.
+
+---
+
+## 🔮 Features
+
+- 🔥 **Ripple Wall** — public altar of flame tiers  
+- 🌕 **Cosmic Calendar** — lunar cycles, festivals, celestial events  
+- 🕊️ **Notifications** — thank-you notes and sacred alerts  
+- 🧘 **Profile** — ripple stats and rotating affirmations  
+- 💫 **Donate** — tiered offerings with symbolic meaning  
+- 📜 **Affirmations** — whisper scroll of sacred mantras  
+- 🛤️ **Roadmap** — 9-phase cosmic journey  
+- 🔱 **Ritual Mapping** — symbolic meaning of every feature
+
+---
+
+## 🧭 Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/lightpath9.git
