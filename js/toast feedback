@@ -1,0 +1,38 @@
+<script>
+document.getElementById('copyUpiBtn').addEventListener('click', async function () {
+  const vpa = document.getElementById('vpaText').innerText.trim();
+  try {
+    await navigator.clipboard.writeText(vpa);
+    showToast('UPI copied');
+  } catch (e) {
+    // fallback
+    const input = document.createElement('input');
+    input.value = vpa;
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+    showToast('UPI copied');
+  }
+});
+
+function showToast(msg) {
+  const t = document.createElement('div');
+  t.textContent = msg;
+  Object.assign(t.style, {
+    position: 'fixed',
+    bottom: '24px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    background: '#111',
+    color: '#fff',
+    padding: '8px 12px',
+    borderRadius: '8px',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+    zIndex: 9999,
+    fontSize: '13px',
+  });
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 1800);
+}
+</script>
